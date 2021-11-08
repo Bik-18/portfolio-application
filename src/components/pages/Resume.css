@@ -1,0 +1,30 @@
+#resume{
+    height: 100vh;
+    background-color: chocolate;
+    width: 80vw;
+    color: black;
+    border: none;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+#resume h1{
+    border-bottom: 5px solid yellow;
+    text-align: center;
+    width: 25vw;
+    margin: 0px auto;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+@media screen and (max-width : 500px) {
+    #resume h1{
+        width: 45vw;
+        font-size: 23px;
+        margin: 0px auto;
+        padding-bottom: 5px;
+    }
+}

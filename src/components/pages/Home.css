@@ -1,0 +1,41 @@
+#home{
+    margin-top: 15vh;
+    background-image: url("https://www.smerin.com/static/565c8b3670db248e0bdc848176270d6a/9397f/websites-banner.jpg");
+    /* height: 50vh; */
+}
+.home-content{
+    margin-left: 10%;
+}
+.text-1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #F9975D;
+}
+.text-2{
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+p{
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    text-shadow: black ;
+}
+.btn-1{
+    padding: 6px 27px;
+    border-radius: 8px;
+    color: #E6E6E6;
+    background-color: #69DADB;
+    box-shadow: 0 0 10px #69DADB;
+    border: none;
+    margin: 10px 10px;
+}
+.btn-2{
+    padding: 6px 14px;
+    border-radius: 8px;
+    background-color: #F9975D;
+    color: #E6E6E6;
+    box-shadow: 0 0 10px #D98C00;
+    border: none;
+}
