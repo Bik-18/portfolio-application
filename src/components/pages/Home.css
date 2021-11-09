@@ -1,10 +1,16 @@
 #home{
     margin-top: 15vh;
     background-image: url("https://www.smerin.com/static/565c8b3670db248e0bdc848176270d6a/9397f/websites-banner.jpg");
-    /* height: 50vh; */
+    background-size: cover;
+    height: 270px;
 }
 .home-content{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    height: 70%;
+    margin-left: 70px;
+    width: 31vw;
+    padding-top: 45px;
+    
 }
 .text-1{
     font-size: 30px;
@@ -38,4 +44,23 @@ p{
     color: #E6E6E6;
     box-shadow: 0 0 10px #D98C00;
     border: none;
+}
+
+
+
+
+@media screen and (max-width : 500px) {
+    #home{
+        margin-top: 10vh;
+        background-size: cover;
+        height: 270px;
+    }
+    .home-content{
+        /* margin-left: 10%; */
+        height: 70%;
+        margin-left: 0px;
+        width: 100vw;
+        padding-top: 45px;
+        
+    }
 }

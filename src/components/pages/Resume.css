@@ -9,11 +9,35 @@
 }
 
 #resume h1{
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #3D0000;
     text-align: center;
     width: 25vw;
     margin: 0px auto;
     padding-bottom: 5px;
+}
+.table-container h2{
+    margin-left: 5vw;
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+}
+table{
+    width: 70vw;
+    margin: 20px auto;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+tr,th,td{
+    padding: 5px 10px;
+}
+th{
+    background-color: #99A799;
+}
+td{
+    background-color: #ADC2A9;
 }
 
 
@@ -26,5 +50,9 @@
         font-size: 23px;
         margin: 0px auto;
         padding-bottom: 5px;
+    }
+    table{
+        /* visibility: hidden; */
+        display: none;
     }
 }

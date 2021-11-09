@@ -44,11 +44,13 @@ function Portfolio() {
                     </div>
 
                     <div className="card">
-                        <h2>Animated Car</h2>
-                        <hr></hr>
-                        <p>This Application is created using translation and transform property of css along with z-index
-                            and position property is used to place the object and mainly focused on animation.
-                        </p>
+                        <div className="card-container">
+                            <h2>Animated Car</h2>
+                            <hr></hr>
+                            <p>This Application is created using translation and transform property of css along with z-index
+                                and position property is used to place the object and mainly focused on animation.
+                            </p>
+                        </div>
                         <div className="button-container">
                             <a href="https://github.com/Bik-18/cssAssignmentAnimation.git" target="_blank" rel="noreferrer">
                                 <button>Repo</button>

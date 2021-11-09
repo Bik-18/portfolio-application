@@ -10,7 +10,7 @@
 }
 
 #portfolio h1{
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid  #3D0000;
     text-align: center;
     width: 25vw;
     margin: 0px auto;
@@ -32,7 +32,8 @@
     padding: 10px 20px;
     text-align: center;
     margin: 20px 10px;
-    /* position: relative; */
+    position: relative;
+    z-index: 0;
 }
 hr{
     width: 90%;
@@ -42,13 +43,17 @@ h2{
     color: crimson;
     margin-bottom: 0px;
 }
-/* .button-container{
-    width: 100%;
+.card .button-container{
+    /* width: 100%;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 10px;
-} */
+    justify-content: space-between; */
+    /* position: absolute;
+    bottom: 20px; */
+}
+.card p{
+    font-size: 18px;
+    text-align: center;
+}
 .card button{
     width: 40%;
     margin: 0px 10px;
@@ -56,6 +61,8 @@ h2{
     border-radius: 10px;
     background-color: #34BE82;
     transition: all 500ms linear;
+    /* position: absolute;
+    bottom: 10px; */
 
 }
 .card button:hover{
@@ -67,10 +74,37 @@ h2{
 }
 
 @media screen and (max-width : 500px) {
+    #portfolio{
+        color: black;
+        width: 100vw;
+        margin: 40px auto;
+        border-radius: 10px;
+        /* box-shadow: 0px 0px 20px black; */
+        border: none;
+    }
+    .portfolio-container{
+        width: 95vw;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px auto;
+    
+    }
     #portfolio h1{
         width: 45vw;
         font-size: 23px;
         margin: 0px auto;
         padding-bottom: 5px;
     }
+    /* .card{
+        width: 90%;
+        background-color: cadetblue;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        margin: 20px 10px;
+        position: relative;
+        z-index: 0;
+    } */
 }

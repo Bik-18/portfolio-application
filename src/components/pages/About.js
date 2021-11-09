@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import img from "../../images/png-img-man.png";
 function About() {
     return (
         <>
@@ -7,12 +8,7 @@ function About() {
                 <h1>About Me</h1>
                 <div className="about-container">
                     <div className="about-pic">
-                        <p>
-                            dhcfdbuhdbfc fdhbfwdjf hdbcishbfc cdhfcbifi ficefiehiufchfweief icfinficn
-                            dhbduhebiefcijhifasidsaihdisdiashdisahdihasidhasiudhasiuhdisauhdiashdiuuhdiuuhD
-                            IJSHDIUHQDIUQWBDQW DQSUUQEUFIQE I  I I J IFIFDOWO N OHN OIN ODSOW DHNO HO O IFIFDOWO IJSHDIUHQDIUQWBDQW
-                            VIUWHDIUFCHWEIUD EUDI HQIUD QW8U DH8Q SHD8UQS DQSH DYHQS D8 HWQ8D HQW8D QWH8D
-                        </p>
+                        <img src={img} alt="man"></img>
                     </div>
 
                     <div className="about-content">

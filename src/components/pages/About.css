@@ -9,7 +9,7 @@
     
 }
 #about h1{
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid  #3D0000;
     text-align: center;
     width: 25vw;
     margin: 0px auto;
@@ -23,7 +23,9 @@
 }
 .about-pic{
     width: 50%;
-    word-wrap: break-word;
+}
+img{
+    width: 100%;
 }
 .about-content{
     width: 50%;
@@ -74,7 +76,7 @@ i{
 @media screen and (max-width : 500px) {
     #about{
         /* background-color: white; */
-        width: 80vw;
+        width: 95vw;
     }
     #about h1{
         width: 45vw;
