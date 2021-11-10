@@ -81,7 +81,7 @@ nav a.active,nav a:hover{
         margin-right: 25px;
         line-height: 83px;
     }
-    ul{
+    nav ul{
         position: fixed;
         width:100vw;
         height: 100vh;

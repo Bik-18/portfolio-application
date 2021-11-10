@@ -1,5 +1,5 @@
 #resume{
-    height: 100vh;
+    min-height: 100vh;
     background-color: chocolate;
     width: 80vw;
     color: black;
@@ -79,14 +79,14 @@ li{
 }
 .ranger{
     margin-top: 30px;
-    list-style: none;
+    /* list-style: none; */
     margin-left: 5vw;
 }
 .empty-box{
     width: 80%;
     height: .9rem;
     background-color: #FEF9EF;
-    border-radius: 50%;
+    border-radius: 10px;
     margin-left: 3vw;
     position: relative;
 }
@@ -94,7 +94,7 @@ li{
     position: absolute;
     height: 100%;
     background-color: #3D0000;
-    border-radius: 50%; 
+    border-radius: 10px; 
 }
 .empty-box  .html{
     width: 90%;
@@ -115,6 +115,9 @@ li{
 
 
 @media screen and (max-width : 500px) {
+    #resume{
+        height: 118vh;
+    }
     #resume h1{
         width: 45vw;
         font-size: 23px;
@@ -128,4 +131,5 @@ li{
     .www{
         display: block;
     }
+    
 }
