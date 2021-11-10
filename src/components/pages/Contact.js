@@ -10,10 +10,10 @@ function Contact() {
                 <div className="contact-container">
                     <div className="left">
                         <h2>Let's Connect</h2>
-                        <p>jad fhebfiwef wehhfbweifijqd bfihbwef ifbihfbw cweiufweifhwe ijwehifhwekjfcw
+                        {/* <p>jad fhebfiwef wehhfbweifijqd bfihbwef ifbihfbw cweiufweifhwe ijwehifhwekjfcw
                             hudcuyhwdfich cihbfijweqhfiwe kbweiuqfhiuwef ihfweiuhfiuwef ibweiufhweiuf
                             wfdihfgbwdifh fjwbekjfbw kjfhweifwek jhfjkwdhfcijjwekfbnwdhfcikwd
-                        </p>
+                        </p> */}
                         <div class="icon"><i class="far fa-envelope"></i>sahirkumar613@gmail.com</div>
                         <div class="icon"><i class="fas fa-phone"></i>8084430565</div>
                         <div class="icon"><i class="fas fa-map-marker-alt"></i>Bangalore,Karnatka.</div>

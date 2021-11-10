@@ -43,13 +43,7 @@ h2{
     color: crimson;
     margin-bottom: 0px;
 }
-.card .button-container{
-    /* width: 100%;
-    display: flex;
-    justify-content: space-between; */
-    /* position: absolute;
-    bottom: 20px; */
-}
+
 .card p{
     font-size: 18px;
     text-align: center;

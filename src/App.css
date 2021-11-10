@@ -5,6 +5,7 @@
   margin: 0px auto;
   background-color: #D0CAB2;
   width: 80vw;
+  padding: 0;
 
 }
 
@@ -20,6 +21,7 @@
 @media screen and (max-width : 500px) {
   .App{
     width: 100vw;
+    
   }
 }
 

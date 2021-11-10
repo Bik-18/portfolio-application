@@ -33,6 +33,9 @@ img{
 .about-container p{
     color: #22577A;
     margin-bottom: 10px 0px;
+    text-align: justify;
+    font-size: initial;
+    color: #AB6D23;
 }
 
 .icon-div{

@@ -21,6 +21,33 @@
     font-size: 35px;
     font-weight: 400;
 }
+.www{
+    width: 90%;
+    margin-left: auto;
+    /* border-left: .2rem dotted #09bcab; */
+    /* margin: 10px 0px; */
+}
+.xxx{
+    margin-left: -.2rem;
+    padding-left: 1rem;
+    border-left: .2rem solid #C7BEA2;
+    position: relative;
+    margin: 15px 0px;
+}
+.xxx::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -.6rem;
+    width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #C7BEA2;
+}
+.yyy{
+    margin: 10px 0px;
+    color: #333;
+}
 table{
     width: 70vw;
     margin: 20px auto;
@@ -40,7 +67,50 @@ td{
     background-color: #ADC2A9;
 }
 
+.www{
+    display: none;
+}
 
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1.2rem;
+}
+.ranger{
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 5vw;
+}
+.empty-box{
+    width: 80%;
+    height: .9rem;
+    background-color: #FEF9EF;
+    border-radius: 50%;
+    margin-left: 3vw;
+    position: relative;
+}
+.empty-box span{
+    position: absolute;
+    height: 100%;
+    background-color: #3D0000;
+    border-radius: 50%; 
+}
+.empty-box  .html{
+    width: 90%;
+}
+.empty-box  .css{
+    width: 90%;
+}
+.empty-box  .javascript{
+    width: 70%;
+}
+.empty-box  .react{
+    width: 70%;
+}
+.empty-box  .git{
+    width: 80%;
+}
 
 
 
@@ -54,5 +124,8 @@ td{
     table{
         /* visibility: hidden; */
         display: none;
+    }
+    .www{
+        display: block;
     }
 }
