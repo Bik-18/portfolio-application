@@ -52,9 +52,7 @@ nav a.active,nav a:hover{
 }
 
 @media screen and (max-width: 1177px) {
-    nav{
-        /* width: 100vw; */
-    }
+    
     span{
         font-size: 30px;
         padding-left: 50px;
@@ -101,9 +99,9 @@ nav a.active,nav a:hover{
         font-size: 20px;
         
     }
-    a:hover,a.active{
-        background: none;
-        color: blueviolet;
+    nav a:hover,nav a.active{
+        background-color: none;
+        color: #DBD0C0;
     }
     #check:checked~ul{
         left:0;

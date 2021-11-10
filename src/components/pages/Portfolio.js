@@ -62,19 +62,26 @@ function Portfolio() {
 
                     </div>
 
-                    {/* <div className="card">
-                        <h2>my project</h2>
-                        <p>usaguhdb dqibweibfwebf fhwebfhbweufbwe fhbweifweihfbwe fhwebfuiwefihwe
-                            hwbfhwbfhwe fwehbfhwebfwe fhweebfihwebfihw fhwebfhwebf fihwebfihweif
-                            fhwehfiwehifw fijwbfibwe fijwebfijwen fiwebfiweb fiwbfiuwehfiuwehf.
-                        </p>
-                        <div>
-                            <button>Repo</button>
-                            <button>Host</button>
+                    <div className="card">
+                        <div className="card-container">
+                            <h2>Basic Html Page</h2>
+                            <hr></hr>
+                            <p>This Application is created using Html Elements,Tags and its attributte.It is the 
+                                simple page decsribing about Back Tracking concept of Data Structures. All useful 
+                                tags and attributte were used for creating this page.
+                            </p>
+                        </div>
+                        <div className="button-container">
+                            <a href="https://github.com/Bik-18/FirstProjectUsingHtml" target="_blank" rel="noreferrer">
+                                <button>Repo</button>
+                            </a>
+                            <a href="https://bik-18.github.io/FirstProjectUsingHtml" target="_blank" rel="noreferrer">
+                                <button>Host</button>
+                            </a>
                         </div>
 
-                    </div> */}
-
+                    </div>
+           
                 </div>
             </div>
         </>
