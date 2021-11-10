@@ -15,7 +15,7 @@ function Portfolio() {
                             marking the task if done and deleting the card itself from the DOM. And it also has responsive
                             features.
                         </p>
-                        <div>
+                        <div className="button-container">
                             <a href="https://github.com/Bik-18/todoAppUsingJS.git" target="_blank" rel="noreferrer">
                                 <button>Repo</button>
                             </a>
@@ -32,7 +32,7 @@ function Portfolio() {
                         <p>This application is mainly based on JavaScript along with that Html Forms and CSS. This
                             application is using eventsHandlers and responding according to value set on the dropdown.
                         </p>
-                        <div>
+                        <div className="button-container">
                             <a href="https://github.com/Bik-18/jsAssignmentClockXD.git" target="_blank" rel="noreferrer">
                                 <button>Repo</button>
                             </a>
