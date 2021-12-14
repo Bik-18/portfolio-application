@@ -10,7 +10,9 @@ function Portfolio() {
                     <div className="card">
                         <h2>React Blog App</h2>
                         <hr></hr>
-                        <p>This Application includes React.JS, React Router and Context Api mainly. All the features of React such as class component, functional component, hooks, state, props have been used. and for styling purposes css has been used and also made the application responsive.This Application will render different types  of blogs based on their category after filtering out the blogs in different pages.
+                        <p>This Application includes React.JS, React Router and Context Api mainly. All the features of React
+                         such as class component, functional component, hooks, state, props have been used.And also made the application responsive.This Application will render 
+                         different types  of blogs based on their category after filtering out the blogs in different pages.
 
                         </p>
                         <div className="button-container">
