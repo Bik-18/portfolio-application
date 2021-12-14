@@ -79,7 +79,7 @@ i{
 @media screen and (max-width : 500px) {
     #about{
         /* background-color: white; */
-        width: 95vw;
+        width: 90vw;
     }
     #about h1{
         width: 45vw;

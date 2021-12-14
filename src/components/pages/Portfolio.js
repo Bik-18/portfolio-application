@@ -8,6 +8,22 @@ function Portfolio() {
                 <h1>Portfolio</h1>
                 <div className="portfolio-container">
                     <div className="card">
+                        <h2>React Blog App</h2>
+                        <hr></hr>
+                        <p>This Application includes React.JS, React Router and Context Api mainly. All the features of React such as class component, functional component, hooks, state, props have been used. and for styling purposes css has been used and also made the application responsive.This Application will render different types  of blogs based on their category after filtering out the blogs in different pages.
+
+                        </p>
+                        <div className="button-container">
+                            <a href="https://github.com/Bik-18/portfolio-application" target="_blank" rel="noreferrer">
+                                <button>Repo</button>
+                            </a>
+                            <a href="https://kind-shirley-9f03b5.netlify.app/" target="_blank" rel="noreferrer">
+                                <button>Host</button>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div className="card">
                         <h2>Todo App</h2>
                         <hr></hr>
                         <p>This Application is built using HTML,CSS & JavaScript. This application will dynamically
@@ -66,8 +82,8 @@ function Portfolio() {
                         <div className="card-container">
                             <h2>Basic Html Page</h2>
                             <hr></hr>
-                            <p>This Application is created using Html Elements,Tags and its attributte.It is the 
-                                simple page decsribing about Back Tracking concept of Data Structures. All useful 
+                            <p>This Application is created using Html Elements,Tags and its attributte.It is the
+                                simple page decsribing about Back Tracking concept of Data Structures. All useful
                                 tags and attributte were used for creating this page.
                             </p>
                         </div>
@@ -81,7 +97,7 @@ function Portfolio() {
                         </div>
 
                     </div>
-           
+
                 </div>
             </div>
         </>
