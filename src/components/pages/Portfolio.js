@@ -10,16 +10,17 @@ function Portfolio() {
                     <div className="card">
                         <h2>React Blog App</h2>
                         <hr></hr>
-                        <p>This Application includes React.JS, React Router and Context Api mainly. All the features of React
-                         such as class component, functional component, hooks, state, props have been used.And also made the application responsive.This Application will render 
-                         different types  of blogs based on their category after filtering out the blogs in different pages.
+                        <p>This Application includes React.JS, React Router and Context Api mainly.ReactJs features such as 
+                            class and functional components, hooks, state, props have been used.And also made the application
+                            responsive. Application will render different types of blogs based on their category after
+                            filtering out the blogs in different pages.
 
                         </p>
                         <div className="button-container">
-                            <a href="https://github.com/Bik-18/portfolio-application" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/Bik-18/blog-project-react" target="_blank" rel="noreferrer">
                                 <button>Repo</button>
                             </a>
-                            <a href="https://kind-shirley-9f03b5.netlify.app/" target="_blank" rel="noreferrer">
+                            <a href="https://eloquent-clarke-b4ec34.netlify.app/" target="_blank" rel="noreferrer">
                                 <button>Host</button>
                             </a>
                         </div>
